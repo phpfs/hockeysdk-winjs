@@ -70,6 +70,8 @@ var HockeyApp = {
         request.send(formData);
 
         HockeyApp.inform();
+        
+        return true;
     },
 
     /*
