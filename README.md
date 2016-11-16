@@ -24,7 +24,8 @@ HockeyApp.user(id);
 - id: An id which is later on visible on your dashboard, makes it easier to debug or contact the user whose app has crashed.      
 
 ### Detailed
-1. Log in to https://hockeyapp.net/ with your Account and Open/Create a WinJS-App in VisualStudio.
+0. Open/Create a WinJS-App in VisualStudio.
+1. Log in to https://hockeyapp.net/ with your Account.
 2. Create a new App and select `Manual` there.
 3. Select platform `Windows` if possible and your current release type.
 4. Enter your app name and make sure to use the exact bundle identifier as in VisualStudio. (f.ex. 27484MaxMuster.Example)
