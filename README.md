@@ -1,9 +1,10 @@
+[![Code Climate](https://codeclimate.com/github/phpfs/hockeysdk-winjs/badges/gpa.svg)](https://codeclimate.com/github/phpfs/hockeysdk-winjs)    
 # HockeySDK for WinJS Windows 10 Apps
 >Have you ever wondered why your WinJS Apps crashes? - No? - Well I did!    
 
 ## Usage & Installation
 ### Simple
-Add the hockeyapp.js file to your project and include in your main html file.
+Add the hockeyapp.js file to your project and include it in your main html file.
 Then, put at the beginning of your main js file the following lines:
 ```javascript
 HockeyApp.start("myappidfrommydashboard", "my.bundle.identifier", function () {
